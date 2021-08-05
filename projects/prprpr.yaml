@@ -14,7 +14,7 @@ spec:
     kind: '*'
   description: prprpr project
   destinations:
-  - namespace: '*'
+  - namespace: 'pr-*'
     server: '*'
   namespaceResourceWhitelist:
   - group: '*'
