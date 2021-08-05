@@ -1,0 +1,1 @@
+{"appName":"game2048","userGivenName":"game2048","destNamespace":"default","destServer":"https://kubernetes.default.svc","srcPath":"apps/game2048/overlays/game2048","srcRepoURL":"https://github.com/Keidrych/gai-hackathon.git","srcTargetRevision":"","labels":null}
