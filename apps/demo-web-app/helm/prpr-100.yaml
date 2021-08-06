@@ -16,7 +16,7 @@ spec:
           version: 1.0.0
   destination:
     server: https://kubernetes.default.svc
-    namespace: prpr-100
+    namespace: pr-100
   syncPolicy:
     automated:
       prune: true
