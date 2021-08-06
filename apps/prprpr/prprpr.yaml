@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: prprpr
+    namespace: 'pr-pr'
     server: 'https://kubernetes.default.svc'
   source:
     path: helm/demo-web-app
