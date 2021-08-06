@@ -11,8 +11,8 @@ spec:
     namespace: 'prprpr'
     server: 'https://kubernetes.default.svc'
   source:
-    path: helm
-    repoURL: 'https://github.com/laptua/argo-previews'
+    path: 'apps/demo-web-app/helm'
+    repoURL: 'https://github.com/grant-lawton-dragonfly/gai-hackathon/'
     targetRevision: HEAD
   project: prprpr
   syncPolicy:
