@@ -16,6 +16,8 @@ spec:
   destinations:
   - namespace: 'pr-*'
     server: '*'
+  - namespace: 'prpr-*'
+    server: '*'
   - namespace: 'prprpr'
     server: '*'
   - namespace: 'argocd'
