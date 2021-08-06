@@ -18,6 +18,8 @@ spec:
     server: '*'
   - namespace: 'prprpr'
     server: '*'
+  - namespace: 'argocd'
+    server: '*'
   namespaceResourceWhitelist:
   - group: '*'
     kind: '*'
