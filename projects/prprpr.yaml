@@ -16,7 +16,7 @@ spec:
   destinations:
   - namespace: 'pr-*'
     server: '*'
-  - namesace: 'prprpr'
+  - namespace: 'prprpr'
     server: '*'
   namespaceResourceWhitelist:
   - group: '*'
