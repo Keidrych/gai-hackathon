@@ -7,40 +7,39 @@ Ad Infinitum
 1. Kubernetes Complexity and TCO 
 
 # Customer-segment
-1. Cloud 
-1. Container
-1. Target customer
+1. Self Hosting Rancher Platforms 
+1. Containerisable Platforms
+1. PC/BC Engineering
 
 # Unique-Value-Proposition
-CI is a development process. CD is an operational process. Deliver value faster, with only the change required.
+- CI is a development process. CD is an operational process. Deliver value faster, with only the change required.
 
 # Solution
-- First top feature
-- Second top feature
-- Third top feature
+- CNCF Compliant Kubernetes (impl: EKS) 
+- GitOps Controlled Deployment (impl: Github)
+- Dynamic Preview Environments
 
 # Channels
-- Path to the customer
-- Social media
-- Point of sale
+- DevOps Guild Forum
+- IAG Kubernetes User Groups 
 
 # Cost-Structure
-- Customer aquisition costs
-- Distribution costs
-- Hosting
-- People, ...
+- EKS - $16.80 per cluster per week
+- ArgoCD - OpenSource - Training and Maintenance
+- Hosting - EC2 or Fargate
 
 # Revenue-Stream
-- Revenue model 
-- Life time value
-- Revenue
-- Gross margin
+- People; De-risk Kubernetes under resourcing
+- Tested Features in Main
+- Hosting Cost Optimisation 
+- License Cost Optimisation
 
 # Key-Metrics
-- Key activity to measure
-- Other key activity to measure
-- Another key activity to measure
+- Lead Time to Change
+- Deployment Frequency
+- Cost
 
 # Unfair-advantage
-- C'ant be easily...
-- ... copied and bought
+- Deploy to Kubernetes _independent of your CI_ (as long as we can get a container)
+- Prototype and Canary environments before changing direction
+- Faster, Safer, Simpler
