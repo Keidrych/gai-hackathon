@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: prpr-200
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: prprpr
+  source:
+    repoURL: https://github.com/carlosaya/demo-web-app
+    targetRevision: HEAD
+    path: helm/demo-web-app
+    helm:
+       values: |
+          version: 2.0.0
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: pr-200
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
