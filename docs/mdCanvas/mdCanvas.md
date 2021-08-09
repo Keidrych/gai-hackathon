@@ -14,6 +14,8 @@ Ad Infinitum
 # Unique-Value-Proposition
 - CI is a development process. CD is an operational process. Deliver value faster, with only the change required.
 
+![Ad Infinitum Swirls](images/ad-infinitum-phillip-jolly.jpg =350x350 "Ad Inifinitum")
+
 # Solution
 - CNCF Compliant Kubernetes (impl: EKS) 
 - GitOps Controlled Deployment (impl: Github)
